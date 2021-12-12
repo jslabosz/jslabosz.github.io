@@ -111,8 +111,8 @@ body nav {
   opacity: 0;
   -webkit-animation: fade-in 3s forwards;
           animation: fade-in 3s forwards;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
 }
 
 body nav .navCont {
