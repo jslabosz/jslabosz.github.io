@@ -320,7 +320,7 @@ body main .mainCont .projects .projectsCont {
 }
 
 body main .mainCont .projects .projectsCont .projectsItem {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.1);
   opacity: 1;
   padding: 0.5em;
   display: -webkit-box;
@@ -545,6 +545,9 @@ body footer .footerCont .contact .contactBtn:hover {
   }
   body nav {
     display: none;
+  }
+  body header .headerCont h1 {
+    font-size: 1.25em;
   }
   body main .mainCont .projects .projectsCont {
     display: -webkit-box;
