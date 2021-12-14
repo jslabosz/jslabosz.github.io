@@ -99,7 +99,7 @@ body {
 
 body nav {
   z-index: 99;
-  top: 2vh;
+  top: -4.5vh;
   bottom: 95vh;
   left: 0;
   right: 0;
@@ -172,6 +172,8 @@ body nav .navCont .navContBtn:hover {
           box-shadow: 0 0 1em black;
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-transform: translateY(5vh);
+          transform: translateY(5vh);
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }

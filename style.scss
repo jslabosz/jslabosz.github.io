@@ -57,7 +57,7 @@ body{
     animation: bg-animation 30s infinite alternate;
     nav{
         z-index: 99;
-        top: 2vh;
+        top: -4.5vh;
         bottom: 95vh;
         left: 0;
         right: 0;
@@ -98,6 +98,7 @@ body{
                 opacity:1;
                 box-shadow: 0 0 1em black;
                 transform: scale(1.05);
+                transform: translateY(5vh);
                 transition: 0.5s;
             }
         }
